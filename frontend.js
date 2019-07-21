@@ -19,7 +19,7 @@ var request = require('request')
 var bodyParser = require('body-parser')
 var app = express()
 
-var guestbookendpoint = 'http://guestbook-service-dockerdev.7e14.starter-us-west-2.openshiftapps.com/:8080/api/messages'
+var guestbookendpoint = 'http://0.0.0.0:8080/api/messages'
 var helloendpoint = 'http://0.0.0.0:8080/api/hello/'
 
 // Creates a $request callback using $express objects
